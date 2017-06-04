@@ -36,7 +36,7 @@ public class LoginController {
 			//path="redirect:.do";
 		}else{
 			model.put("message","用户名或密码错误");
-		}//
+		}////
 		return new ModelAndView(path,model);
 		
 	}
