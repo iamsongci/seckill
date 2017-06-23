@@ -39,7 +39,7 @@ public class LoginController {
 			model.put("message","用户名或密码错误");
 		}
 		return new ModelAndView(path,model);
-	}
+	} 
 	@RequestMapping("signup")
 	public ModelAndView signup(Map<String, Object> model,@RequestParam("pwd") String p,@RequestParam("userName") String u,@RequestParam("isSeller") String IsSeller,@RequestParam("storeName") String store ,HttpSession session) throws ServiceException{
 		String path ="signup";
@@ -60,6 +60,15 @@ public class LoginController {
 			model.put("message","请重新注册");
 		}
 		return new ModelAndView(path,model);		
+	}
+	
+	@RequestMapping("tologin")
+	public String tologin() throws ServiceException{
+		return "login";
+	}
+	@RequestMapping("tosignup")
+	public String tosignup() throws ServiceException{
+		return "signup";
 	}
 
 }

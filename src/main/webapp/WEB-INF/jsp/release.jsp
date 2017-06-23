@@ -19,10 +19,10 @@
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
 								<li>
-									<a href="#">登录</a>
+									<a href="tologin.do">登录</a>
 								</li>
 								<li>
-									<a href="#">注册</a>
+									<a href="tosignup.do">注册</a>
 								</li>
 							</ul>
 						</div>

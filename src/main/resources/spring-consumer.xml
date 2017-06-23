@@ -8,12 +8,12 @@
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd  
         ">
         
-		<dubbo:reference id="UserService" interface="top.softzztiedu.service.UserService" check="false" />
+		<dubbo:reference id="UserService" interface="top.softzztiedu.service.UserService" check="false" timeout="10000"/>
 		
-		<dubbo:reference id="BusinessService" interface="top.softzztiedu.service.BusinessService" check="false" />
+		<dubbo:reference id="BusinessService" interface="top.softzztiedu.service.BusinessService" check="false" timeout="10000"/>
 		
-		<dubbo:reference id="CommodityService" interface="top.softzztiedu.service.CommodityService" check="false" />
+		<dubbo:reference id="CommodityService" interface="top.softzztiedu.service.CommodityService" check="false" timeout="10000"/>
 		
-		<dubbo:reference id="StockService" interface="top.softzztiedu.service.StockService" check="false" />
+		<dubbo:reference id="StockService" interface="top.softzztiedu.service.StockService" check="false" timeout="10000"/>
 		
 </beans>
