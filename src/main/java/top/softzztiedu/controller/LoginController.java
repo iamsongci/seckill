@@ -42,7 +42,7 @@ public class LoginController {
 	} 
 	@RequestMapping("signup")
 	public ModelAndView signup(Map<String, Object> model,@RequestParam("pwd") String p,@RequestParam("userName") String u,@RequestParam("isSeller") String IsSeller,@RequestParam("storeName") String store ,HttpSession session) throws ServiceException{
-		String path ="signup";
+		String path ="redirect:list.do";
 		u = u.trim();
 		p = p.trim();
 		IsSeller=IsSeller.trim();

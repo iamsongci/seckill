@@ -28,7 +28,7 @@
 						</div>
 					</nav>
 		<h2>会员注册</h2>
-	<form class="form-horizontal">
+	<form action="signup.do" method="post" class="form-horizontal">
       <div class="control-group">
         <label class="control-label">用户名：</label>
         <div class="controls">

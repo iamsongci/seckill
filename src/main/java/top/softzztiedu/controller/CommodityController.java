@@ -49,7 +49,7 @@ public class CommodityController {
 		}
 		}	
 	
-	@RequestMapping("detail")
+	@RequestMapping("detailInfo")
 	public ModelAndView detail(Commodity commodity, Map<String, Object> model) throws ServiceException{
 		String path ="detail";
 		ResultDO resultDO=commodityservice.getcommodityInfo(commodity);
