@@ -35,6 +35,7 @@ public class LoginController {
 			Member member = (Member)resultDo.getResult();
 			session.setAttribute("user",member);
 			//path="redirect:.do";
+			path ="redirect:list.do";
 		}else{
 			model.put("message","用户名或密码错误");
 		}
@@ -42,7 +43,7 @@ public class LoginController {
 	} 
 	@RequestMapping("signup")
 	public ModelAndView signup(Map<String, Object> model,@RequestParam("pwd") String p,@RequestParam("userName") String u,@RequestParam("isSeller") String IsSeller,@RequestParam("storeName") String store ,HttpSession session) throws ServiceException{
-		String path ="redirect:list.do";
+		String path ="signup";
 		u = u.trim();
 		p = p.trim();
 		IsSeller=IsSeller.trim();
@@ -54,6 +55,7 @@ public class LoginController {
 		m.setShopName(store);
 		ResultDO resultDo=userService.register(m);
 		if(resultDo.isSuccess()){
+			path ="redirect:list.do";
 			session.setAttribute("user",m);
 			//path="redirect:.do";
 		}else{
