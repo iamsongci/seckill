@@ -19,10 +19,10 @@
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
 								<li>
-									<a href="#">我的店铺</a>
+									<a href="mystore.do">我的店铺</a>
 								</li>
 								<li>
-									<a href="#">购物车</a>
+									<a href="shoppingcar.do">购物车</a>
 								</li>
 								<li>
 									<a href="#">我的订单</a>
@@ -91,8 +91,7 @@
 							</p>
 						</div>
 						</div>
-				</div>
-								
+				</div>							
 </div>
 
 </body>

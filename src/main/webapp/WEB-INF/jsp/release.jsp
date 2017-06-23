@@ -6,7 +6,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>登录</title>
-        <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
     </head>
     <body>
     <div class="container">
@@ -63,6 +63,6 @@
     </form>
     </div>
  </body>
-<script type="text/javascript" src="../js/jquery.min.js" ></script>
-<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="./js/jquery.min.js" ></script>
+<script type="text/javascript" src="./js/bootstrap.min.js" ></script>
 </html>

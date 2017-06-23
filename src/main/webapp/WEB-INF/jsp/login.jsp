@@ -32,13 +32,13 @@
       <div class="control-group">
         <label class="control-label">用户名：</label>
         <div class="controls">
-          <input type="text" placeholder="4—20个字母和数字组合">
+          <input type="text" name="userName" placeholder="4—20个字母和数字组合">
         </div>
       </div>
       <div class="control-group">
         <label class="control-label">密码：</label>
         <div class="controls">
-          <input type="password" placeholder="最长128个字符">
+          <input type="password" name="pwd" placeholder="最长128个字符">
         </div>
       </div>
       <h3> ${message==null?"":message}</h3>
