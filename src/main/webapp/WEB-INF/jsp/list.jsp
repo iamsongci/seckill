@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -33,15 +36,16 @@
 							</ul>
 						</div>
 					</nav>
+				<c:forEach items="${list}" var="item">
 				<div class="col-md-12">
 						<div class="col-md-3">
 						<img alt="Bootstrap Thumbnail Second" src="../img/Tulip.jpg">
 						</div>
 						<div class="col-md-3">
-					    <h3>郁金香 </h3>
-						<h3>价格：</h3>
-						<h3>邮费：</h3>
-						<h3>剩余：</h3>
+					    <h3>${item.name}</h3>
+						<h3>价格：${item.price}</h3>
+						<h3>邮费：${item.postage}</h3>
+						<h3>剩余：${item.stock}</h3>
 						</div>
 						<div class="col-md-3">
 						</div>
@@ -59,6 +63,8 @@
 						</div>
 						</div>
 				</div>
+				
+				</c:forEach>
 				<div class="col-md-12">
 						<div class="col-md-3">
 						<img alt="Bootstrap Thumbnail Second" src="../img/Tulip.jpg">
@@ -86,7 +92,6 @@
 						</div>
 						</div>
 				</div>
-				
 								
 </div>
 
