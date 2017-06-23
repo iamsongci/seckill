@@ -6,7 +6,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>商品列表</title>
-        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
     </head>
 <body>
 <div class="container">
@@ -55,7 +55,7 @@
 					</nav>
 				<div class="col-md-12">
 						<div class="col-md-6">
-						<img src="../img/Tulip.jpg">
+						<img src="./img/Tulip.jpg">
 						</div>
 						<div class="col-md-6">
 						<h3>郁金香     <a class="btn btn-danger" href="#">秒杀</a></h3>
@@ -71,11 +71,11 @@
 				</div>
 				<h2>商品描述</h2>
 				<div class="col-md-12">
-						<img alt="Bootstrap Thumbnail Second" src="../img/Tulip.jpg">
+						<img alt="Bootstrap Thumbnail Second" src="./img/Tulip.jpg">
 				</div>				
 </div>
 
 </body>
-<script type="text/javascript" src="/js/jquery.min.js" ></script>
-<script type="text/javascript" src="/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="./js/jquery.min.js" ></script>
+<script type="text/javascript" src="./js/bootstrap.min.js" ></script>
 </html>
